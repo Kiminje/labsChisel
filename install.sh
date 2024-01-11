@@ -10,7 +10,7 @@ SCALA_VERSION=2.13.10 ALMOND_VERSION=0.13.14
     --sources --default=true \
     -o almond
 ./almond --install
-rm almond
-rm coursier
+# rm almond
+# rm coursier
 
 echo 'To enter virtualenv type: source chisel_nb_env/bin/activate'
